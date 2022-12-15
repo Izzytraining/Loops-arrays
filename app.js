@@ -33,14 +33,12 @@ console.log(musicGenres);
 
 //task 4
 
-function sort
+breakfast.sort();
+console.log(breakfast);
 
+//task Loop 1 Counting
 
-//task Loop 1
-
+for (let i = 1; (i = 10); i++) {
+  console.log(i); // printing the value of i
+}
 //task Loop 2
-
-
-
-
-
