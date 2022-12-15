@@ -43,13 +43,11 @@ for (let i = 1; (i = 10); i--) {
 }
 
 //task Loop 2 tasks
-//const tasks = ["hoover", "tidy", "cook"];for ()
-//1. Create an array, called tasks, of 3 or more household tasks you
-//need to do.
-//2.
-//Use a for loop and template literals to iterate through the
-//array printing 'Task $(1+1}: S(taskslil)" for each element on the
-//array.
+//1. Create an array, called tasks, of 3 or more household tasks you need to do.
+//2. Use a for loop and template literals to iterate through the array printing 'Task $(1+1}: S(taskslil)"
+//for each element on the array.
+
+const tasks = ["hoover", "tidy", "cook"];
 
 //task loop 3 Last loop value
 let i = 3;
@@ -59,11 +57,11 @@ while (i) {
 console.console.log("value of i", i);
 
 //task loop 4 Even numbers
-for (let i = 2; i <= 10; i++) {
+for (let i = 2; i <= 10; i--) {
   if (i % 2 == 0) {
-    alert(i);
   }
 }
+console.log(i);
 
 //task ForEach Exercise 1: Fav Foods
 const favouriteFood =
@@ -73,18 +71,37 @@ function iterate(item) {
 }
 favouriteFood.forEach(iterate);
 
-//
+//task ForEach exercise 2: Sum
+//Create an array, numArray, with a list of 5 or more numbers
+//2. Create a function called sum which takes in an array as a parameter
+//3. The function should return the sum of the array.
+//4. Test the function with the array you created
 
+//task ForEach exercise 3: Product
+//Create a function called product that multiplies all the numbers in the array by each other.
+//Test the function by passing in your array of values
+
+//task ForEach exercise 4: Student grades
+//Create an array, studentGrades, with the values 70, 20, 53, 64, 78, 60, 32
+//2. Create function call passedGrades. The function should take in an array and return an array of the scores above 50.
 
 //task string ex 1 addFullStop
+//It should take in a string and the output should always finish with a full stop.
+//Some of the input strings will already have a full stop and others will not.
 
-const text = "It should take in a string and the output should always finish";
-function addFullStop (); {
-if (text(string.length-1) != ".") {
-  string = string+".";
-};
+function addFullStop() {
+  const text = "It should take in a string and the output should always finish";
+  if ((text = string.length - 1 != ".")) {
+    string = string + ".";
+  }
+  console.log(addFullStop);
 }
-console.log(addFullStop);
 
 //task string ex 2 Capitalize
-
+//Create a function called capitalize, that takes one parameter
+//2. The function should return "This is not a string" if the parameter passed in is not a string
+//If the parameter passed in is a string the function should return a capitalised word.
+//Examples of inputs to outputs:
+//robert => Robert
+//DAVE => Dave
+//Jenny => Jenny
