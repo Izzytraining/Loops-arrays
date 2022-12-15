@@ -41,4 +41,5 @@ console.log(breakfast);
 for (let i = 1; (i = 10); i++) {
   console.log(i); // printing the value of i
 }
-//task Loop 2
+//task Loop 2 tasks
+const tasks = ["hoover", "tidy", "cook"];
