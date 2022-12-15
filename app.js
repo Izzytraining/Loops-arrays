@@ -59,8 +59,10 @@ while (i) {
 console.console.log("value of i", i);
 
 //task loop 4 Even numbers
-for (let i = 2; i <= 10; i += 2) {
-  console.log("Count", i);
+for (let i = 2; i <= 10; i++) {
+  if (i % 2 == 0) {
+    alert(i);
+  }
 }
 
 //task ForEach Exercise 1: Fav Foods
@@ -71,4 +73,18 @@ function iterate(item) {
 }
 favouriteFood.forEach(iterate);
 
-//task
+//
+
+
+//task string ex 1 addFullStop
+
+const text = "It should take in a string and the output should always finish";
+function addFullStop (); {
+if (text(string.length-1) != ".") {
+  string = string+".";
+};
+}
+console.log(addFullStop);
+
+//task string ex 2 Capitalize
+
