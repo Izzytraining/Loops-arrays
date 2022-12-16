@@ -148,6 +148,13 @@ toMiles = kilometers.map(function (m) {
 //MAP/FILTER InputArray is a list of students ages but they are some mistakes.
 //2. ["18", " 27", 19, 21, "22 ", NaN, Undefined]
 //3. Create a function which returns a new array of student ages where all the values have been converted to numbers and any missing values have been removed.
+const InputArray = ["18", " 27", 19, 21, "22 ", NaN, undefined];
+newArray.filter(function (numbers, InputArray, arr) {
+  return numbers;
+});
+console.log(addFilter);
+
+//array.filter(function(currentValue, index, arr), thisValue)
 
 //reduce
 //let add = nums.reduce(function(acc, current, index, array)){return acc + cuurent;}) console.log(add);
