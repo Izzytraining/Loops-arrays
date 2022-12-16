@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////
 //TUESDAYS HOMEWORK
 
-//task1 Breakfast
+//Task1 Breakfast
 
 const breakfast = ["toast", "sausage", "eggs", "orange juice"];
 console.log(breakfast);
@@ -17,12 +17,12 @@ console.log(breakfast);
 
 console.log(breakfast.length);
 
-//task 2 Last Value
+//Task 2 Last Value
 coins = [1, 2, 3, 4, 5];
 const lastcoins = coins.slice(-1);
 console.log(lastcoins);
 
-//task 3 Music
+//Task 3 Music
 
 const musicGenres = ["Rock", "Rap"];
 musicGenres.push("Jazz");
@@ -34,12 +34,12 @@ console.log("change array", musicGenres);
 musicGenres.unshift("Blues", "Reggae");
 console.log(musicGenres);
 
-//task 4
+//Task 4 Breakfast sort
 
 breakfast.sort();
 console.log(breakfast);
 
-//task Loop 1 Counting
+//Task Loop 1 Counting
 
 for (let i = 1; (i = 10); i--) {
   console.log(i); // printing the value of i
@@ -134,6 +134,13 @@ console.log("type of", CSV);
 //MAP/FILTER: Create an array Kilometers with 5 or more values.
 // Create a function called toMiles which returns a new array of the kilometers array converted miles.
 //You should use map in the function body 4. 1 mile = 0.621371 km
+
+const kilometers = [5, 10, 61];
+//1 mile is equal to 0.621371 kilometers
+let toMiles = 0.621371;
+toMiles = kilometers.map(function (m) {
+  return m * toMiles;
+});
 
 // let addMap = numbers.map(function(element)){return element + element;})console.log(addMap);
 // let addMap = numbers.filter(function(element)){return element + element;})console.log(addFilter);
