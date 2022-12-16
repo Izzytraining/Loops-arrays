@@ -149,12 +149,16 @@ toMiles = kilometers.map(function (m) {
 //2. ["18", " 27", 19, 21, "22 ", NaN, Undefined]
 //3. Create a function which returns a new array of student ages where all the values have been converted to numbers and any missing values have been removed.
 const InputArray = ["18", " 27", 19, 21, "22 ", NaN, undefined];
-newArray.filter(function (numbers, InputArray, arr) {
+newArray.filter(function (InputArray, arr) {
   return numbers;
 });
 console.log(addFilter);
 
 //array.filter(function(currentValue, index, arr), thisValue)
+
+//MAP/FILTER  CanVote
+//1.Create function which takes in an array as a parameter and return an array of ages which are equal or over 18. User filter to accomplish this.
+//2. Test your functions with an array of ages.
 
 //reduce
 //let add = nums.reduce(function(acc, current, index, array)){return acc + cuurent;}) console.log(add);
